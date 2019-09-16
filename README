@@ -1,0 +1,18 @@
+	Notre document final de projet sous forme d'archive contient 6 documents. Après avoir désarchivé celui-ci, on a les fichiers suivants :
+- Ce fichier nommé README : c'est ce fichier-ci que vous êtes entrain de lire. Il contient la description des différents fichiers du projet, comment les untiliser pour comprendre le fonctionnement du projet.
+
+- Rapport : C'est notre rapport final sur le projet. Ce document contient les explications concises de notre travail : les parties traitées, les choix faits, le diagramme de classes, le fonctionnement des jeux, les problèmes rencontrés et les tentatives de solution.
+
+- Plateau.java : code source de la classe Plateau
+
+- Gomuku.java : code source du jeu de Gomuku
+
+- ColorLines.java : code source du jeu de Color Lines
+
+- Jeux.java : code source de la classe Jeux
+	
+
+	Pour la vérification du programme, compilez le fichier Jeux.java avec la commande "javac Jeux.java" puis exécutez le avec "java Jeux". Une fois le jeu lancé, repondez correctement aux question posées; commencez par saisir 1 ou 2 dans le terminal selon que vous vouliez jouer respectivement à Gomuku ou Color Lines. Ensuite, vous devrez choisir les dimensions du plateau, la longueur entre 5 et 15 puis la hauteur aussi entre 5 et 15. Si vous avez choisi Gomuku, le plateau s'ouvre et le jeu commence. Vous jouez en premier. Cliquez sur une case et le pion bleu apparaît puis l'ordinateur joue son tour et ainsi de suite (pour le déroulement du jeu, reférenciez vous au document Rapport). Si vous avez choisi Color Lines, il vous sera demandé de choisir le nombre de couleur des pions que vous désirez dans la partie entre 3 et 10. Après cela, comme précédemment, le jeu commence. Le plateau apparaît et l'ordinateur place 6 pions sur le plateau. Vous devez en déplacer une et le jeu continue.
+
+
+/************************************************************Bon jeu**************************************************************************/
